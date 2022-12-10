@@ -4,7 +4,7 @@
     "command_name": "sharpkatz",
     "original_author": "b4rtik",
     "repo_url": "https://github.com/NightlyEscaper/SharpKatz",
-    "help": "Windows persistence toolkit",
+    "help": "Porting of mimikatz sekurlsa::logonpasswords, sekurlsa::ekeys and lsadump::dcsync commands.",
     "entrypoint": "Main",
     "allow_args": true,
     "default_args": "-h",
