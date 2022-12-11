@@ -43,6 +43,7 @@ jobs:
     # Step 3: Publish with tag.
     - name: Bump version and push tag
       if: steps.sync.outputs.has_new_commits == 'true'
+      id: tag
       uses: anothrNick/github-tag-action@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
